@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'core/theme/app_theme.dart';
-import 'features/home/screens/home_screen.dart';
+import 'features/auth/screens/splash_screen.dart';
 
 class AutoLearnApp extends StatelessWidget {
   const AutoLearnApp({super.key});
@@ -11,7 +11,7 @@ class AutoLearnApp extends StatelessWidget {
       title: 'AutoLearn AR',
       debugShowCheckedModeBanner: false,
       theme: AppTheme.lightTheme,
-      home: const HomeScreen(),
+      home: const SplashScreen(),
     );
   }
 }
