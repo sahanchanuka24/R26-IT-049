@@ -11,7 +11,7 @@ class AutoLearnApp extends StatelessWidget {
       title: 'AutoLearn AR',
       debugShowCheckedModeBanner: false,
       theme: AppTheme.lightTheme,
-      home: const SplashScreen(),
+      home: const ('Testing'),
     );
   }
 }
