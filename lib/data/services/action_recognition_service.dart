@@ -1,6 +1,6 @@
 import 'dart:convert';
-import 'dart:typed_data';
 import 'package:flutter/services.dart';
+import "package:flutter/foundation.dart";
 import 'package:tflite_flutter/tflite_flutter.dart';
 
 class ActionRecognitionService {
@@ -44,11 +44,11 @@ class ActionRecognitionService {
       _componentMapping = json.decode(compJson);
 
       _isLoaded = true;
-      print('Action Recognition model loaded!');
-      print('Actions: ${_actionLabels.length}');
+      debugPrint('Action Recognition model loaded!');
+      debugPrint('Actions: ${_actionLabels.length}');
       return true;
     } catch (e) {
-      print('Error loading action model: $e');
+      debugPrint('Error loading action model: $e');
       _isLoaded = false;
       return false;
     }
@@ -118,7 +118,7 @@ class ActionRecognitionService {
         confidence: maxScore,
       );
     } catch (e) {
-      print('Action recognition error: $e');
+      debugPrint('Action recognition error: $e');
       return null;
     }
   }
