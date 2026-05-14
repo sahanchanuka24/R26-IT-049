@@ -693,9 +693,9 @@ class _CameraScreenState extends State<CameraScreen> {
                   children: [
                     Text(
                       '${_completedSteps.where((c) => c).length}'
-                      ' of ${_steps.length} done',
+                      ' of ${_steps.length} steps completed',
                       style: const TextStyle(
-                          color: Colors.white60, fontSize: 11),
+                          color: Colors.white70, fontSize: 12),
                     ),
                     // Timer
                     StreamBuilder(
