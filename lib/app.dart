@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'core/theme/app_theme.dart';
 import 'features/auth/screens/splash_screen.dart';
 
+//test commit
+
 class AutoLearnApp extends StatelessWidget {
   const AutoLearnApp({super.key});
 
