@@ -226,7 +226,7 @@ Group **RP26-IT-049**, B.Sc. (Hons) in Information Technology, SLIIT.
 - Supervisor: **Ms. Anjalee Gamage**
 - Co-Supervisor: **Ms. Uthpala samarakoon**
   
-Built with TensorFlow Lite, CameraX, Jetpack Compose
+Built with TensorFlow Lite, CameraX, Jetpack Compose.
  
 ## License
  
