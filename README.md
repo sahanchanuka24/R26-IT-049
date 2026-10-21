@@ -231,4 +231,4 @@ Built with TensorFlow Lite, CameraX, Jetpack Compose.
 ## License
  
 This project was developed for academic purposes at SLIIT. All rights reserved by the authors unless a license file states otherwise.
- ..
+ ..,
